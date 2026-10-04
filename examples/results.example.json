@@ -1,0 +1,12 @@
+{
+  "format": "uclf-scoreboard",
+  "version": 1,
+  "saved_at": "2026-01-01T09:00:00+00:00",
+  "unit": "centiseconds (1/100 s)",
+  "max_times": 3,
+  "teams": [
+    { "team": 7, "times": [998, 1010, 1005], "sources": ["serial", "manual", "serial"] },
+    { "team": 12, "times": [1044, null, null], "sources": ["serial", "none", "none"] },
+    { "team": 21, "times": [null, null, null], "sources": ["none", "none", "none"] }
+  ]
+}

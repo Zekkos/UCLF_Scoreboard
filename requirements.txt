@@ -1,0 +1,10 @@
+# GUI binding: qtpy picks whichever of these is installed (PyQt6 preferred here).
+qtpy>=2.4
+PyQt6>=6.5
+# PySide6>=6.5    # alternative; qtpy supports it too
+
+# USB serial to the gate MCU
+pyserial>=3.5
+
+# development / testing only
+pytest>=8.0

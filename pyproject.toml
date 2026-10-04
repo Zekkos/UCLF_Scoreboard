@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uclf-scoreboard"
+version = "1.0.0"
+description = "Gruvbox dark scoreboard for a line-follower competition (qtpy + pyserial)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["qtpy>=2.4", "pyserial>=3.5"]
+
+[project.optional-dependencies]
+qt = ["PyQt6>=6.5"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+uclf-scoreboard = "uclf.app:main"
+
+[tool.setuptools]
+packages = ["uclf"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
