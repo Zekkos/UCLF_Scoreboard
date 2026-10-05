@@ -35,7 +35,7 @@ class ScoreboardWindow(QtWidgets.QMainWindow):
         store: ResultStore,
         link: GateLink,
         *,
-        title: str = "UCLF Line Follower",
+        title: str = "UC Line Follower",
         subtitle: str = "",
         timer_px: int = 190,
         table_px: int = 26,

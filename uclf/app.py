@@ -22,7 +22,7 @@ from .scoreboard_window import ScoreboardWindow
 
 __all__ = ["build_parser", "run", "main", "ORGANISATION", "APPLICATION"]
 
-ORGANISATION = "UCLF"
+ORGANISATION = "UC"
 APPLICATION = "Scoreboard"
 DEFAULT_RESULTS = "results.json"
 
@@ -102,7 +102,7 @@ def run(argv: list[str] | None = None) -> int:
         link,
         timer_px=int(190 * scale),
         table_px=int(26 * scale),
-        title="UCLF Line Follower",
+        title="UC Line Follower",
         subtitle="ranked by best of three runs",
     )
     desk = InputWindow(store, link, scoreboard=scoreboard, settings=settings)

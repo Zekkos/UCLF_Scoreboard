@@ -181,7 +181,7 @@ class InputWindow(QtWidgets.QMainWindow):
         self._refreshing = False  # guards table signals while repainting
         self._filling = False  # guards form signals while loading a team
 
-        self.setWindowTitle("UCLF Line Follower \u2014 Scoring Desk")
+        self.setWindowTitle("UC Line Follower \u2014 Scoring Desk")
         self.resize(1340, 880)
         self._build_ui()
         self._wire()
